@@ -10,8 +10,13 @@ class Square extends React.Component {
   }
   render() {
     return (
+<<<<<<< HEAD
       <button className="square" onClick={() => alert('click')}>
          {this.props.value}
+=======
+      <button className="square">
+        {this.props.value}
+>>>>>>> 88a5bea9557adfbe4be54bc4f17fa22c91eb94aa
       </button>
     );
   }
@@ -70,4 +75,3 @@ ReactDOM.render(
   <Game />,
   document.getElementById('root')
 );
-
